@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@fontsource-variable/fira-code": "^5.0.18",
+    "@fontsource/lato": "^5.0.21",
+    "@fontsource/open-sans": "^5.0.28",
+    "@fontsource/raleway": "^5.0.19"
+  }
+}
