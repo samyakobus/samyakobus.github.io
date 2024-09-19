@@ -37,7 +37,7 @@ const LandingPage = () => {
             scrollBehavior={'smooth'}
             zIndex={'8000'}
         >
-            <Flex mb={{ 'sm': '5vh', 'md': '9vh' }} color='white' minHeight='100%' bgColor={bgColor} flexDirection={{ 'base': 'column', 'sm': 'column', 'md': 'row' }}>
+            <Flex paddingTop={{ 'sm': '5vh', 'md': '9vh' }} mb={{ 'sm': '5vh', 'md': '9vh' }} color='white' minHeight='100%' bgColor={bgColor} flexDirection={{ 'base': 'column', 'sm': 'column', 'md': 'row' }}>
                 <Box
                     flex='1'
                     // bg='white' 
