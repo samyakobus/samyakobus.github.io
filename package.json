@@ -4,5 +4,8 @@
     "@fontsource/lato": "^5.0.21",
     "@fontsource/open-sans": "^5.0.28",
     "@fontsource/raleway": "^5.0.19"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
