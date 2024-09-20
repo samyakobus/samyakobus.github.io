@@ -54,7 +54,7 @@ const GetInTouch = () => {
                 </Center>
                 <Center>
                     <Text>
-                        Feel free to reach out to me if you're looking for talent, or simply want to connect. I am
+                        Feel free to reach out to me if you're looking for talent, or simply want to connect. I am quite approachable.
                         <br />
                         <Center>
                             This is my email:
