@@ -37,7 +37,7 @@ const LandingPage = () => {
             scrollBehavior={'smooth'}
             zIndex={'8000'}
         >
-            <Flex paddingTop={{ 'sm': '5vh', 'md': '9vh' }} mb={{ 'sm': '5vh', 'md': '9vh' }} color='white' minHeight='100%' bgColor={bgColor} flexDirection={{ 'base': 'column', 'sm': 'column', 'md': 'row' }}>
+            <Flex paddingTop={{ 'base': '8vh','sm': '7vh', 'md': '5vh' }} mb={{ 'sm': '5vh', 'md': '9vh' }} color='white' minHeight='100%' bgColor={bgColor} flexDirection={{ 'base': 'column', 'sm': 'column', 'md': 'row' }}>
                 <Box
                     flex='1'
                     // bg='white' 
@@ -48,7 +48,7 @@ const LandingPage = () => {
 
                     <Text
                         color={secondaryColor}
-                        lineHeight={{ 'sm': '8vh', 'md': '12vh', 'lg': '12vh' }}
+                        lineHeight={{ 'sm': '10vh', 'md': '12vh', 'lg': '12vh' }}
                         align='initial'
                         fontSize={{ 'base': '50px', 'sm': '60px', 'md': '70px' }}
                         fontWeight='bold'
@@ -83,7 +83,7 @@ const LandingPage = () => {
                             transition='all 0.2s cubic-bezier(.08,.52,.52,1)'
                             border='1px'
                             px='8px'
-                            borderRadius='2px'
+                            borderRadius='10px'
                             fontSize='25px'
                             fontWeight='semibold'
                             bg='#041329'
@@ -118,7 +118,7 @@ const LandingPage = () => {
                             transition='all 0.2s cubic-bezier(.08,.52,.52,1)'
                             border='1px'
                             px='8px'
-                            borderRadius='2px'
+                            borderRadius='10px'
                             fontSize='25px'
                             fontWeight='semibold'
                             bg='#041329'
@@ -152,7 +152,7 @@ const LandingPage = () => {
                 </Box>
                 <Box flex='1' >
                     <Center>
-                        <Image maxWidth={{ 'base': '30vh', 'sm': '50vh', 'md': '100vh' }} boxShadow='12px 12px 2px 1px rgba(4, 19, 41, 1)' src={'/images/langdingPage.png'} alt="Samuel" />
+                        <Image marginLeft={{ 'base': '5vh', 'sm': '10vh', 'md': '5vh' }} maxWidth={{ 'base': '25vh', 'sm': '25vh', 'md': '50vh' }} boxShadow='12px 12px 2px 1px rgba(4, 19, 41, 1)' src={'/images/SamYakCompressed.png'} alt="Samuel" />
                     </Center>
                 </Box>
             </Flex>
