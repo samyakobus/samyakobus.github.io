@@ -51,21 +51,19 @@ const Education = () => {
                     >
                         <Stack>
                             <Text>
-                                Hi I am Samuel! I am currently a postgraduate student studying Actuarial Science and Insurance Analytics. I am interested in pursuing a career in finance,
-                                yet also still find interest in the world of engineering.
+                                Hi I am Samuel! I am currently a postgraduate student studying Actuarial Science and Insurance Analytics. I am interested in pursuing a career in the actuarial field and insurance. However, I am still open to opportunities in finance or data analytics as well. I have exam P and Fm (soon) under my belt.
                             </Text>
 
                             <br />
                             <Text bgColor='theme1.2'>
-                                In my free time, I like to tinker with Web Development, Python Programming, and reading current world news. Some of the news outlets I follow are:
-                                the WSJ.com, NYT.com, SCMP, and Finimize.
+                                In my free time, I am preparing towards the SOA exams, while also brushing up on my data analytics skills. I am proficient in Python and had some experience in using a deep learning model for sound event detection.
                             </Text>
                             <br />
                             <Box display='inline-block'>
                                 <Text display='inline-block' fontWeight='bold' pr='3px'>
                                     Hobbies:
                                 </Text>
-                                seeing the world, tinkering, music, coffee, making the world a profitable place
+                                seeing the world, tinkering, music, and coffee/ caffeinated drinks
 
                             </Box>
 
@@ -111,7 +109,7 @@ const Education = () => {
 
 
                             <Text>
-                                Last Updated: 29 August 2024
+                                Last Updated: 26 February 2025
                             </Text>
 
 

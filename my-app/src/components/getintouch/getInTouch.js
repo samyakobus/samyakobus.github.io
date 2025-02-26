@@ -82,10 +82,10 @@ const GetInTouch = () => {
                         LinkedIn  <Image maxWidth={{ 'base': '3vh', 'sm': '5vh', 'md': '10vh' }} src={'/images/contact/linkedin.png'} alt="Samuel"></Image>
                     </Link>
                 </VStack>
-                <Center>
+                {/* <Center>
                         <Image marginTop={{ 'base': '5vh', 'sm': '10vh', 'md': '5vh' }} marginLeft={{ 'base': '5vh', 'sm': '10vh', 'md': '5vh' }} maxWidth={{ 'base': '25vh', 'sm': '25vh', 'md': '50vh' }} boxShadow='12px 12px 2px 1px rgba(4, 19, 41, 1)' src={'/images/landing/sam.png'} alt="Sam" />
-                </Center>
-                <Box height={['160px']}>
+                </Center> */}
+                <Box height={['400px']}>
                 </Box>
                
 
