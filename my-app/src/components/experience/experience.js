@@ -37,6 +37,18 @@ const Experience = () => {
 
     const workList = [{
         id: 0,
+        imageUrl: '/images/experience/bupa_logo.jpeg',
+        imageAlt: 'BUPA',
+        expCompany: 'BUPA Hong Kong',
+        expTitle: 'Actuarial Intern - Technical Actuarial Team, Reserving/Valuation',
+        expList: ["Conducted Month-End reserving procedures to calculate Outstanding Claims Provision (IBNR)",
+            "Presented and compiled presentation from HK Risk-Based Capital 2024 Disclosure of Top 30 Life Insurers and Top 60 General Insurers",
+            "Refactor claims analysis script from Datawarehouse SQL in Microsoft SQL Server Management Studio to Databricks and decreased computing time by 50%",
+            "Experimented with GLM and XGBoost to project Outstanding Claims Provision (IBNR)"],
+        expYear: 'July 2025 - December 2025'
+    },
+    {
+        id: 1,
         imageUrl: '/images/experience/princeton.png',
         imageAlt: 'princeton',
         expCompany: 'SAP7A Property Group',
@@ -47,8 +59,9 @@ const Experience = () => {
             "Learned various management tools, as well as Health and Safety practices."],
         expYear: 'July 2024 - August 2024'
     },
+    
     {
-        id: 1,
+        id: 2,
         imageUrl: '/images/experience/sllo.png',
         imageAlt: 'sllo',
         expCompany: 'PolyU Service Learning and Leadership Office',
@@ -61,7 +74,7 @@ const Experience = () => {
         expYear: 'July 2023 - August 2024'
     },
     {
-        id: 2,
+        id: 3,
         imageUrl: '/images/experience/htt.png',
         imageAlt: 'htt',
         expCompany: 'High Tech Technology Limited',
@@ -75,22 +88,30 @@ const Experience = () => {
     },
     ]
 
-    const workModal = [{
+    const workModal = [
+    {
         id: 0,
         title: 'Engineering Intern',
         explanation: 'Some Pictures',
         experience: 'Pictures coming soon!',
         website: 'python.org'
     },
-    {
+        {
         id: 1,
-        title: 'Student Leader',
+        title: 'Engineering Intern',
         explanation: 'Some Pictures',
         experience: 'Pictures coming soon!',
         website: 'python.org'
     },
     {
         id: 2,
+        title: 'Student Leader',
+        explanation: 'Some Pictures',
+        experience: 'Pictures coming soon!',
+        website: 'python.org'
+    },
+    {
+        id: 3,
         title: 'Assistant Associate, Engineering',
         explanation: 'Some Pictures',
         experience: 'Pictures coming soon!',

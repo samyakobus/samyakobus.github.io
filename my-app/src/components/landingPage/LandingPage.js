@@ -102,7 +102,7 @@ const LandingPage = () => {
                         >
 
                             <Link
-                                href="https://drive.google.com/file/d/1mzq-pOkHbLat-QIcw0qfRa9jsLKw1gU-/view?usp=drive_link" isExternal
+                                href="https://www.linkedin.com/in/samuel-yakobus-b8620a191/" isExternal
                                 duration={500} >
                                 <ViewIcon />
                                 <Text fontSize={['16px', '20px', '25px', '35px']}

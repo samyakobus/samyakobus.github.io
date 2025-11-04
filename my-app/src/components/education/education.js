@@ -11,10 +11,14 @@ import {
     Center,
     Image,
     boxShadow,
+    Link
 
 } from '@chakra-ui/react';
 import Fonts from '../../fonts/fonts';
 import theme from '../../theme/theme';
+import {
+    LinkIcon
+} from '@chakra-ui/icons'
 
 
 const Education = () => {
@@ -51,7 +55,7 @@ const Education = () => {
                     >
                         <Stack>
                             <Text>
-                                Hi I am Samuel! I am currently a postgraduate student studying Actuarial Science and Insurance Analytics. I am interested in pursuing a career in the actuarial field and insurance. However, I am still open to opportunities in finance or data analytics as well. I have exam P and Fm (soon) under my belt.
+                                Hi I am Samuel! I am a recent graduate from the MSc in Actuarial Science and Insurance Analytics. I am interested in pursuing a career in the actuarial field and insurance. I am also open to opportunities in finance or data analytics as well. I have exam P, FM, SRM, FAM (soon) under my belt.
                             </Text>
 
                             <br />
@@ -82,7 +86,7 @@ const Education = () => {
                                 </Box>
                             </Center>
                             <Center>
-                                <Text>Expected Graduation: 2025 </Text>
+                                <Text>Graduation Year: 2025 </Text>
                             </Center>
                             <Center>
                                 <Text>@HKD198,000 BOC-HK Scholarship </Text>
@@ -109,7 +113,7 @@ const Education = () => {
 
 
                             <Text>
-                                Last Updated: 26 February 2025
+                                Last Updated: 3 November 2025
                             </Text>
 
 
@@ -117,14 +121,26 @@ const Education = () => {
                         </Stack>
 
                     </Box>
+                   
                     <Box
                         flex='1'
                         mb={{ 'base': '7vh', 'sm': '5vh', 'md': '9vh' }}
                     >
-                        <Center
+                      <Text mb={{ 'base': '2vh', 'sm': '3vh', 'md': '4vh' }}>
+                                <Text marginLeft={{ 'base': '2vh', 'sm': '3vh', 'md': '4vh' }} fontWeight="bold">Check out this feature article by CUHK's Business School, article link:</Text>
+                              <Link href="https://www.bschool.cuhk.edu.hk/featured-stories/asean-graduates-chart-new-horizons-in-hong-kong/" isExternal duration={500} >
+                        
+                            <Text fontSize={['16px', '18px', '23px', '27px']}
+                                paddingLeft={['5px', '12px', '15px', '20px']} display='newline'>ASEAN graduates chart new horizons in Hong Kong<LinkIcon/></Text>
 
-                        >
-                            <Image maxWidth={{ 'base': '30vh', 'sm': '50vh', 'md': '100vh' }} src={'/images/education.png'} alt="Samuel" />
+                            </Link>
+                         </Text>
+                           
+                        <Center>
+                      
+                      
+                         
+                            <Image maxWidth={{ 'base': '30vh', 'sm': '45vh', 'md': '70vh' }} src={'/images/education/cuhk_feature_logo.png'} alt="Samuel" />
                         </Center>
 
                     </Box>
