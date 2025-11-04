@@ -137,10 +137,7 @@ const Education = () => {
                          </Text>
                            
                         <Center>
-                      
-                      
-                         
-                            <Image maxWidth={{ 'base': '30vh', 'sm': '45vh', 'md': '70vh' }} src={'/images/education/cuhk_feature_logo.jpg'} alt="Samuel" />
+                            <Image maxWidth={{ 'base': '30vh', 'sm': '45vh', 'md': '70vh' }} src={'/images/education/CUHK_Feature_Logo.jpg'} alt="Samuel" />
                         </Center>
 
                     </Box>
